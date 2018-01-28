@@ -25,6 +25,7 @@ maple-rtc 为蓝蘑云推出的实时音视频系统，包括了实时音频，�
 - maple-rtc 游戏 SDK 本身并不依赖于特定的 Cocos2d 的版本；
 
 **运行 Android 项目**
+
 使用 Android Studio 打开该项目，连上设备，编译并运行。
 
 - **运行 iOS 项目**
