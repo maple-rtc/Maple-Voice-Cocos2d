@@ -256,7 +256,6 @@ bool HelloLanmo::init()
         mBMedia->setChannelProfile(CHANNEL_PROFILE_VOICE_ONLY);
 
         int version = mBMedia->getVersion();
-        mBMedia->setParameter("channel.url", "test.gpzbj.com:80");
     }
 
 
