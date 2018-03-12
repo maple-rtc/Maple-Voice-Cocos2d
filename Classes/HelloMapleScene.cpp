@@ -77,7 +77,7 @@ public:
         mUi->updateMsgContent(rawMsg.str());
     }
 
-    void onAudioVolumeIndication(bool isSpeak, int volume) override{
+    void onAudioVolumeIndication(int volume) override{
 
     }
 

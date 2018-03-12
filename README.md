@@ -3,7 +3,7 @@
 maple-rtc 为蓝蘑云推出的实时音视频系统，包括了实时音频，视频，变声，美颜等功能，适用于娱乐，游戏，教育等实时场景中；
 
 ----------
-- 完整的 API 文档和集成步骤见 [文档中心](http://www.baidu.com/)
+- 完整的 API 文档和集成步骤见 [文档中心](http://doc.lmaple.com/maple-voice-cocos2dx-sdk.html)
 
 ----------
 这个开源项目演示了如何快速集成 maple-rtc SDK 到 Cocos2d 中，实现在游戏中音频通话效果。
@@ -19,7 +19,7 @@ maple-rtc 为蓝蘑云推出的实时音视频系统，包括了实时音频，�
 #define MAPLE_APP_ID <#YOUR APP ID#>
 ```
 
-然后在 [maple-rtc SDK](https://www.baidu.com/) 下载 **maple-rtc 游戏语音 SDK for Cocos2d**，解压后将其中的 **include** 和 **libs** 文件夹复制到本项目的 **BMGamingSDK** 下。
+然后在 [maple-rtc SDK](http://sdk.lmaple.com/Maple_Voice_Cocos2d_SDK_Release.zip) 下载 **maple-rtc 游戏语音 SDK for Cocos2d**，解压后将其中的 **include** 和 **libs** 文件夹复制到本项目的 **BMGamingSDK** 下。
 
 - 本示例项目依赖于开源的 [Cocos2d-x](http://www.cocos2d-x.org/) 项目，下载 http://www.cocos2d-x.org/filedown/cocos2d-x-3.14.1.zip 并用相应内容来替换本项目下的 **cocos2d** 文件夹
 - maple-rtc 游戏 SDK 本身并不依赖于特定的 Cocos2d 的版本；
