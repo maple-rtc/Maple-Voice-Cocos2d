@@ -3,7 +3,7 @@
 maple-rtc 为蓝蘑云推出的实时音视频系统，包括了实时音频，视频，变声，美颜等功能，适用于娱乐，游戏，教育等实时场景中；
 
 ----------
-- 完整的 API 文档和集成步骤见 [文档中心](http://doc.lmaple.com/maple-voice-cocos2dx-sdk.html)
+- 完整的 API 文档和集成步骤见 [文档中心](http://doc.lmaple.com/maple-rtc-cocos2dx-voice-sdk.html)
 
 ----------
 这个开源项目演示了如何快速集成 maple-rtc SDK 到 Cocos2d 中，实现在游戏中音频通话效果。
