@@ -74,6 +74,8 @@
 		A3CA57C7200B0B6E0023C772 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CA57C6200B0B6E0023C772 /* GameController.framework */; };
 		A3CA585120163F920023C772 /* HelloMapleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3CA584F20163F910023C772 /* HelloMapleScene.cpp */; };
 		A3E17BEF201F732300DA2657 /* MapleVoiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E17BEE201F732300DA2657 /* MapleVoiceKit.framework */; };
+		A3F82809232D24FB00DDFAF2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F82808232D24FB00DDFAF2 /* CoreVideo.framework */; };
+		A3F8280B232D251200DDFAF2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F8280A232D251200DDFAF2 /* VideoToolbox.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -196,6 +198,8 @@
 		A3CA585020163F910023C772 /* HelloMapleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloMapleScene.h; sourceTree = "<group>"; };
 		A3E17AA22018D4B400DA2657 /* MapleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapleKit.framework; path = ../BMGamingSDK/libs/iOS/MapleKit.framework; sourceTree = "<group>"; };
 		A3E17BEE201F732300DA2657 /* MapleVoiceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapleVoiceKit.framework; path = ../BMGamingSDK/libs/iOS/MapleVoiceKit.framework; sourceTree = "<group>"; };
+		A3F82808232D24FB00DDFAF2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		A3F8280A232D251200DDFAF2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -212,6 +216,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F8280B232D251200DDFAF2 /* VideoToolbox.framework in Frameworks */,
+				A3F82809232D24FB00DDFAF2 /* CoreVideo.framework in Frameworks */,
 				A3E17BEF201F732300DA2657 /* MapleVoiceKit.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
@@ -309,6 +315,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3F8280A232D251200DDFAF2 /* VideoToolbox.framework */,
+				A3F82808232D24FB00DDFAF2 /* CoreVideo.framework */,
 				A3E17BEE201F732300DA2657 /* MapleVoiceKit.framework */,
 				A3E17AA22018D4B400DA2657 /* MapleKit.framework */,
 				A3C5F6D22016489F009A8D9A /* RTChat.framework */,
@@ -481,7 +489,7 @@
 				LastUpgradeCheck = 0820;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = TBYH7JXTLY;
+						DevelopmentTeam = 3G9YAMXB4S;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -635,7 +643,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
-				DEVELOPMENT_TEAM = TBYH7JXTLY;
+				DEVELOPMENT_TEAM = 3G9YAMXB4S;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../BMGamingSDK/libs/iOS\"";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -677,7 +685,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = NO;
-				DEVELOPMENT_TEAM = TBYH7JXTLY;
+				DEVELOPMENT_TEAM = 3G9YAMXB4S;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../BMGamingSDK/libs/iOS\"";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;

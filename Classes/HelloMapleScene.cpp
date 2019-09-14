@@ -11,7 +11,7 @@ USING_NS_CC;
 
 using namespace maple;
 
-static  BMedia* mBMedia = nullptr;
+static  BMediaKit* mBMedia = nullptr;
 static std::string ownerUid = "";
 bool exitFlag = false;
 
@@ -135,7 +135,7 @@ bool HelloLanmo::init()
     // create and initialize a label
     std::stringstream title;
     title << " BMGame ";
-    title << BMedia_getInstance(MAPLE_APP_ID)->getVersion();
+    title << BMediaKit_getInstance(MAPLE_APP_ID)->getSdkVersion();
     title << " DEMO";
     auto label = Label::createWithTTF(title.str().c_str(), "fonts/Marker Felt.ttf", 24);
 
@@ -248,14 +248,14 @@ bool HelloLanmo::init()
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
 
-    mBMedia = BMedia_getInstance(MAPLE_APP_ID);
+    mBMedia = BMediaKit_getInstance(MAPLE_APP_ID);
 
     if(mBMedia){
         mBMedia->setEventHandler(new MyIGamingRtcEngineEventHandler(this));
 
         mBMedia->setChannelProfile(CHANNEL_PROFILE_VOICE_ONLY);
 
-        int version = mBMedia->getVersion();
+        int version = mBMedia->getSdkVersion();
     }
 
 
@@ -275,7 +275,7 @@ void HelloLanmo::updateMsgContent(const std::string& msg)
 
 void HelloLanmo::onLeaveChannelClicked()
 {
-    BMedia_getInstance(MAPLE_APP_ID)->leaveChannel();
+    BMediaKit_getInstance(MAPLE_APP_ID)->leaveChannel();
 }
 
 void HelloLanmo::onJoinChannelClicked()
@@ -284,14 +284,14 @@ void HelloLanmo::onJoinChannelClicked()
         return;
     }
 
-    auto rtcEngine = BMedia_getInstance(MAPLE_APP_ID);
+    auto rtcEngine = BMediaKit_getInstance(MAPLE_APP_ID);
     //rtcEngine->joinChannel(mChannelEditBox->getText(), "Cocos2d");
     rtcEngine->joinChannel(mChannelEditBox->getText());
 }
 
 void HelloLanmo::onOpenSpeakerPhoneClicked()
 {
-    int ret = BMedia_getInstance(MAPLE_APP_ID)->setEnableSpeakerphone(true);
+    int ret = BMediaKit_getInstance(MAPLE_APP_ID)->setEnableSpeakerphone(true);
 
     std::stringstream rawMsg;
     rawMsg << "setEnableSpeakerphone true, ret = " << ret;
@@ -300,7 +300,7 @@ void HelloLanmo::onOpenSpeakerPhoneClicked()
 
 void HelloLanmo::onCloseSpeakerPhoneClicked()
 {
-    int ret = BMedia_getInstance(MAPLE_APP_ID)->setEnableSpeakerphone(false);
+    int ret = BMediaKit_getInstance(MAPLE_APP_ID)->setEnableSpeakerphone(false);
     std::stringstream rawMsg;
     rawMsg << "setEnableSpeakerphone false, ret = " << ret;
     this->updateMsgContent(rawMsg.str());

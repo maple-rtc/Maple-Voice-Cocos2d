@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         applicationId "maple.lanmo.gaming.cocos2d"
-        minSdkVersion 18
-        targetSdkVersion 25
+        minSdkVersion 19
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }
@@ -50,12 +50,17 @@ android {
             jniDebuggable true
         }
     }
+    externalNativeBuild {
+        ndkBuild {
+            path 'jni/Android.mk'
+        }
+    }
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile fileTree(include: ['*.jar'], dir: '../../BMGamingSDK/libs/Android')
-    compile project(':libcocos2dx')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: '../../BMGamingSDK/libs/Android')
+    implementation project(':libcocos2dx')
 }
 
 task cleanAssets(type: Delete) {
