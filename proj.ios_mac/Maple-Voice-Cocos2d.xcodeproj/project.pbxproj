@@ -25,8 +25,6 @@
 		2F492EE21E9FA9CD007E4203 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F492EE11E9FA9CD007E4203 /* libresolv.tbd */; };
 		2F71DBDA1F308232008131FD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F71DBD91F308231008131FD /* CoreMedia.framework */; };
 		2F71DBDC1F308306008131FD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F71DBDB1F308306008131FD /* CoreVideo.framework */; };
-		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
-		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
 		46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
 		46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7719C43A67006E1F66 /* CloseSelected.png */; };
@@ -69,13 +67,12 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		A3C732E1232F5E6600713159 /* MapleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E17AA22018D4B400DA2657 /* MapleKit.framework */; };
+		A3C732E6232F677200713159 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C732E5232F677200713159 /* VideoToolbox.framework */; };
 		A3CA56B02007B6E70023C772 /* HelloCocos2dx.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CA56AF2007B6E70023C772 /* HelloCocos2dx.png */; };
 		A3CA57C3200B0AF40023C772 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CA57C2200B0AF40023C772 /* MediaPlayer.framework */; };
 		A3CA57C7200B0B6E0023C772 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CA57C6200B0B6E0023C772 /* GameController.framework */; };
 		A3CA585120163F920023C772 /* HelloMapleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3CA584F20163F910023C772 /* HelloMapleScene.cpp */; };
-		A3E17BEF201F732300DA2657 /* MapleVoiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E17BEE201F732300DA2657 /* MapleVoiceKit.framework */; };
-		A3F82809232D24FB00DDFAF2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F82808232D24FB00DDFAF2 /* CoreVideo.framework */; };
-		A3F8280B232D251200DDFAF2 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F8280A232D251200DDFAF2 /* VideoToolbox.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -139,12 +136,10 @@
 		2F1F05D71E729CD300244919 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
 		2F1F05D81E729CD300244919 /* ButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonPressed.png; sourceTree = "<group>"; };
 		2F1F05DA1E729CD300244919 /* TextBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextBox.png; sourceTree = "<group>"; };
-		2F1F05F61E72CBF100244919 /* AgoraAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraAudioKit.framework; path = ../AgoraGamingSDK/libs/iOS/AgoraAudioKit.framework; sourceTree = "<group>"; };
 		2F492EE11E9FA9CD007E4203 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libresolv.tbd; sourceTree = DEVELOPER_DIR; };
 		2F71DBD61F308150008131FD /* libagoraSdkCWrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libagoraSdkCWrapper.a; path = ../AgoraGamingSDK/libs/iOS/libagoraSdkCWrapper.a; sourceTree = "<group>"; };
 		2F71DBD91F308231008131FD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		2F71DBDB1F308306008131FD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
-		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
@@ -186,20 +181,14 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		A3C5F6D22016489F009A8D9A /* RTChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTChat.framework; path = ../BMGamingSDK/libs/iOS/RTChat.framework; sourceTree = "<group>"; };
-		A3CA56AD2007B60F0023C772 /* RTChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTChat.framework; path = ../LMGamingSDK/libs/iOS/RTChat.framework; sourceTree = "<group>"; };
+		A3C732E5232F677200713159 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		A3CA56AF2007B6E70023C772 /* HelloCocos2dx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloCocos2dx.png; sourceTree = "<group>"; };
-		A3CA56B22007C21C0023C772 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		A3CA57C2200B0AF40023C772 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		A3CA57C4200B0B220023C772 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
 		A3CA57C6200B0B6E0023C772 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
-		A3CA584B201101F70023C772 /* MapleAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapleAudioKit.framework; path = ../BMGamingSDK/libs/iOS/MapleAudioKit.framework; sourceTree = "<group>"; };
 		A3CA584F20163F910023C772 /* HelloMapleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloMapleScene.cpp; sourceTree = "<group>"; };
 		A3CA585020163F910023C772 /* HelloMapleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloMapleScene.h; sourceTree = "<group>"; };
 		A3E17AA22018D4B400DA2657 /* MapleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapleKit.framework; path = ../BMGamingSDK/libs/iOS/MapleKit.framework; sourceTree = "<group>"; };
-		A3E17BEE201F732300DA2657 /* MapleVoiceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapleVoiceKit.framework; path = ../BMGamingSDK/libs/iOS/MapleVoiceKit.framework; sourceTree = "<group>"; };
-		A3F82808232D24FB00DDFAF2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
-		A3F8280A232D251200DDFAF2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -216,9 +205,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F8280B232D251200DDFAF2 /* VideoToolbox.framework in Frameworks */,
-				A3F82809232D24FB00DDFAF2 /* CoreVideo.framework in Frameworks */,
-				A3E17BEF201F732300DA2657 /* MapleVoiceKit.framework in Frameworks */,
+				A3C732E6232F677200713159 /* VideoToolbox.framework in Frameworks */,
+				A3C732E1232F5E6600713159 /* MapleKit.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
 				A3CA57C3200B0AF40023C772 /* MediaPlayer.framework in Frameworks */,
@@ -315,22 +303,15 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A3F8280A232D251200DDFAF2 /* VideoToolbox.framework */,
-				A3F82808232D24FB00DDFAF2 /* CoreVideo.framework */,
-				A3E17BEE201F732300DA2657 /* MapleVoiceKit.framework */,
+				A3C732E5232F677200713159 /* VideoToolbox.framework */,
 				A3E17AA22018D4B400DA2657 /* MapleKit.framework */,
-				A3C5F6D22016489F009A8D9A /* RTChat.framework */,
-				A3CA584B201101F70023C772 /* MapleAudioKit.framework */,
 				A3CA57C6200B0B6E0023C772 /* GameController.framework */,
 				A3CA57C4200B0B220023C772 /* AddressBook.framework */,
 				A3CA57C2200B0AF40023C772 /* MediaPlayer.framework */,
-				A3CA56B22007C21C0023C772 /* VideoToolbox.framework */,
-				A3CA56AD2007B60F0023C772 /* RTChat.framework */,
 				2F71DBDB1F308306008131FD /* CoreVideo.framework */,
 				2F71DBD91F308231008131FD /* CoreMedia.framework */,
 				2F71DBD61F308150008131FD /* libagoraSdkCWrapper.a */,
 				2F492EE11E9FA9CD007E4203 /* libresolv.tbd */,
-				2F1F05F61E72CBF100244919 /* AgoraAudioKit.framework */,
 				2F1F05CC1E729B6700244919 /* CoreTelephony.framework */,
 				294D0D631D0D56D500F7F5D4 /* CoreText.framework */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
@@ -373,7 +354,6 @@
 				2F1F05D81E729CD300244919 /* ButtonPressed.png */,
 				2F1F05DA1E729CD300244919 /* TextBox.png */,
 				521A8EA819F11F5000D177D7 /* fonts */,
-				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
 				46880B7719C43A67006E1F66 /* CloseSelected.png */,
 			);
@@ -568,7 +548,6 @@
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				2F1F05DB1E729CD300244919 /* Button.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
-				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
@@ -584,7 +563,6 @@
 			files = (
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				2F1F05DE1E729CD300244919 /* ButtonPressed.png in Resources */,
-				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
